@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>task 2-1</title>
+    <style>
+        .container {
+            width: 610px;
+            margin: auto;
+        }
+        div {
+            margin: 5px;
+        }
+        #header, #menu, .post, #footer {
+            border: 1px solid black;
+        }
+        #header {
+            background: #e6f7b0;
+            width: 600px;
+            height: 100px;
+        }
+        #menu {
+            background: #ffb7ff;
+            width: 150px;
+            height: 400px;
+        }
+        .post {
+            background: #9fe2ff;
+            width: 435px;
+            height: 190px;
+        }
+        #footer {
+            background: #ffffca;
+            width: 600px;
+            height: 100px;
+        }
+        .wrap {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 0;
+        }
+        .blue {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div id="header"></div>
+    <div class="wrap">
+        <div id="menu"></div>
+        <div class="blue">
+            <div class="post"></div>
+            <div class="post"></div>
+        </div>
+    </div>
+    <div id="footer"></div>
+</div>
+</body>
+</html>
