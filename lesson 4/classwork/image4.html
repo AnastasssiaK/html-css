@@ -3,21 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <title>Image 4 optimize</title>
-    <style></style>
+    <style>
+        .bg-silver {
+            background: silver;
+        }
+
+        .txt-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .w200 {
+            width: 200px;
+        }
+
+        .h180 {
+            height: 180px;
+        }
+
+        .brdr-rds-5 {
+            border-radius: 5px;
+        }
+
+        .wrap {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .container {
+            width: 855px;
+            height: 590px;
+            border: 2px solid black;
+            border-radius: 20px;
+            box-sizing: border-box;
+            margin: auto;
+            padding: 10px;
+        }
+
+        #block-a {
+            width: 855px;
+        }
+
+        #block-h {
+            height: 365px;
+        }
+
+        .box-bcdefg {
+            width: 620px;
+            column-gap: 10px;
+        }
+        .box-bcdefgh {
+            column-gap: 10px;
+            margin-top: 5px;
+        }
+
+    </style>
 </head>
 <body>
-<div class="container">
-    <div>A</div>
-    <div class="box-bcdefgh">
-        <div class="box-bcdefg">
-            <div>B</div>
-            <div>C</div>
-            <div>D</div>
-            <div>E</div>
-            <div>F</div>
-            <div>G</div>
+<div class="container wrap">
+    <div class="bg-silver h180 brdr-rds-5 txt-center" id="block-a">A</div>
+    <div class="box-bcdefgh wrap">
+        <div class="box-bcdefg wrap">
+            <div class="bg-silver w200 h180 brdr-rds-5 txt-center">B</div>
+            <div class="bg-silver w200 h180 brdr-rds-5 txt-center">C</div>
+            <div class="bg-silver w200 h180 brdr-rds-5 txt-center">D</div>
+            <div class="bg-silver w200 h180 brdr-rds-5 txt-center">E</div>
+            <div class="bg-silver w200 h180 brdr-rds-5 txt-center">F</div>
+            <div class="bg-silver w200 h180 brdr-rds-5 txt-center">G</div>
         </div>
-        <div>H</div>
+        <div class="bg-silver w200 brdr-rds-5 txt-center" id="block-h">H</div>
     </div>
 </div>
 </body>
