@@ -13,15 +13,23 @@ body {
 .silver {
     background: #ced8e1;
 }
+
 .txt-dark-blue {
     color: #102b3e;
 }
+
 .txt-silver {
     color: #ced8e1;
 }
+
+.txt-blue {
+    color: #3ac6ea;
+}
+
 .txt-cntr {
     text-align: center;
 }
+
 .w100 {
     width: 100%;
 }
@@ -29,6 +37,7 @@ body {
 .rds-50 {
     border-radius: 50px;
 }
+
 .rds-10 {
     border-radius: 10px;
 }
@@ -71,6 +80,7 @@ body {
     display: flex;
     column-gap: 15px;
 }
+
 .three {
     height: 300px;
     display: flex;
@@ -81,59 +91,178 @@ body {
     padding: 0 400px;
     row-gap: 10px;
 }
+
 h1 {
     margin: 0;
 }
-#line-3 {
+
+.line-3 {
     width: 200px;
     height: 50px;
 }
+
 .four {
     height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 #four-child {
     width: 1100px;
     height: 330px;
     border: 2px solid #3ac6ea;
 }
+
 .square {
     width: 170px;
     height: 170px;
 }
+
 .boxes-four {
     margin-top: 40px;
     display: flex;
     justify-content: space-evenly;
 }
-.boxes-four  p {
+
+.boxes-four p {
     margin-top: 180px;
 }
+
 .five {
     height: 400px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
+
 .circle {
     border-radius: 50%;
 
 }
+
 .five-card {
     width: 180px;
     margin: 5px;
 }
-.five div:nth-child(2) {border: 1px solid #3ac6ea; padding: 20px 40px}
-.six {
-    height: 1000px;
+
+.five div:nth-child(2) {
+    border: 1px solid #3ac6ea;
+    padding: 20px 40px
 }
 
+.six {
+    height: 1300px;
+    padding: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.six > div {
+    margin: 20px;
+}
+
+.six-container-1 {
+    width: 1100px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.six-card {
+    width: 300px;
+    height: 360px;
+    border: 2px solid #3ac6ea;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.six-card h4, h5, p {
+    margin: 10px 0;
+}
+
+.six-card p {
+    padding-bottom: 15px;
+}
+
+.box-2 {
+    width: 270px;
+    height: 150px;
+    display: flex;
+    margin: auto;
+}
+
+.six-card-top {
+    border-bottom: 2px solid #3ac6ea;
+}
+
+.elmnt-left {
+    width: 15px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.img-right {
+    display: flex;
+    column-gap: 5px;
+}
+
+.img-elements {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.six-card-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.sign-1 {
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.sign-2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.sign-2-all {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 10px;
+}
+
+.six-container-2 {
+    width: 900px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: auto;
+}
+
+.six-container-2 > div {
+    box-sizing: border-box;
+    padding: 60px;
+}
 
 .seven {
     height: 60px;
 }
+
 .seven-card {
     width: 150px;
     column-gap: 15px;
@@ -144,6 +273,7 @@ h1 {
     align-items: center;
     border-bottom: 1px solid #3ac6ea;
 }
+
 .seven-card div {
     width: 25px;
     height: 25px;
