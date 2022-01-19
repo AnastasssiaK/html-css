@@ -6,7 +6,6 @@
     <style>
         body {
             background: #f1f1f1;
-            margin: auto;
         }
 
         .bg-silver {
@@ -18,11 +17,13 @@
         }
 
         .container {
-            width: 1200px;
-            height: 620px;
+            width: 840px;
+            height: 570px;
             background: white;
             border: 2px solid black;
             border-radius: 20px;
+            margin: auto;
+            padding: 5px;
         }
 
         .txt-center {
@@ -30,36 +31,47 @@
             justify-content: center;
             align-items: center;
         }
-        .h200 {
-            height: 200px;
-        }
-        .box-small div {
-            width: 20%;
-        }
-        .box-small {
-            width: 100px;
-        }
-        .box-large {
 
-         }
-       .box-medium {
-           width: 100px;
+        .h180 {
+            height: 180px;
+        }
+
+        .w630 {
+            width: 630px;
+        }
+
+        .box-cde > div {
+            width: 200px;
+        }
+
+        .mrgn-5 {
+            margin: 5px;
+        }
+
+        .container div {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #block-f {
+            width: 200px;
+            height: 370px;
         }
     </style>
 </head>
 <body>
 <div class="container">
-    <div class="bg-silver h200 brd-r-10 txt-center" id="block-a">A</div>
-    <div class="box-large">
-        <div class="box-medium">
-            <div class="bg-silver h200 brd-r-10 txt-center" id="block-b">B</div>
-            <div class="box-small">
-                <div class="bg-silver h200 brd-r-10 txt-center">C</div>
-                <div class="bg-silver h200 brd-r-10 txt-center">D</div>
-                <div class="bg-silver h200 brd-r-10 txt-center">E</div>
+    <div class="bg-silver h180 brd-r-10 txt-center mrgn-5" id="block-a">A</div>
+    <div class="box-bcdef">
+        <div class="box-bcde w630">
+            <div class="bg-silver h180 w630 brd-r-10 txt-center mrgn-5" id="block-b">B</div>
+            <div class="box-cde w1000">
+                <div class="bg-silver h180 brd-r-10 txt-center mrgn-5">C</div>
+                <div class="bg-silver h180 brd-r-10 txt-center mrgn-5">D</div>
+                <div class="bg-silver h180 brd-r-10 txt-center mrgn-5">E</div>
             </div>
         </div>
-        <div class="bg-silver brd-r-10 txt-center" id="block-f">F</div>
+        <div class="bg-silver brd-r-10 txt-center mrgn-5" id="block-f">F</div>
     </div>
 </div>
 </body>
