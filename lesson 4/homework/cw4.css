@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+}
+
+.blue {
+    background: #3ac6ea;
+}
+
+.dark-blue {
+    background: #102b3e;
+}
+
+.silver {
+    background: #ced8e1;
+}
+.txt-dark-blue {
+    color: #102b3e;
+}
+.txt-silver {
+    color: #ced8e1;
+}
+.txt-cntr {
+    text-align: center;
+}
+.w100 {
+    width: 100%;
+}
+
+.rds-50 {
+    border-radius: 50px;
+}
+.rds-10 {
+    border-radius: 10px;
+}
+
+.one {
+    box-sizing: border-box;
+    padding-right: 180px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.line-1 {
+    width: 50px;
+    height: 5px;
+}
+
+.two {
+    height: 70px;
+    box-sizing: border-box;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+#line-2 > div {
+    width: 100px;
+    height: 10px;
+}
+
+#box-1 {
+    width: 130px;
+    height: 50px;
+}
+
+#line-2 {
+    display: flex;
+    column-gap: 15px;
+}
+.three {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0 400px;
+    row-gap: 10px;
+}
+h1 {
+    margin: 0;
+}
+#line-3 {
+    width: 200px;
+    height: 50px;
+}
+.four {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#four-child {
+    width: 1100px;
+    height: 330px;
+    border: 2px solid #3ac6ea;
+}
+.square {
+    width: 170px;
+    height: 170px;
+}
+.boxes-four {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.boxes-four  p {
+    margin-top: 180px;
+}
+.five {
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.circle {
+    border-radius: 50%;
+
+}
+.five-card {
+    width: 180px;
+    margin: 5px;
+}
+.five div:nth-child(2) {border: 1px solid #3ac6ea; padding: 20px 40px}
+.six {
+    height: 1000px;
+}
+
+
+.seven {
+    height: 60px;
+}
+.seven-card {
+    width: 150px;
+    column-gap: 15px;
+    padding: 13px;
+    margin: 0 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #3ac6ea;
+}
+.seven-card div {
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+}
