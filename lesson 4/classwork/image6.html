@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image 6 optimaze</title>
+    <style>
+        .bg-1 {
+            background: #2269bb;
+        }
+        .bg-2 {
+            background: #16457a;
+        }
+        .txt-xlrg {
+            font-size: x-large;
+        }
+        .txt-mdm {
+            font-size: medium;
+        }
+        .white-txt {
+            color: white;
+        }
+        .txt-cntr {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .wrap {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .w100   {
+            width: 100%;
+        }
+        .w50 {
+            width: 49.1%;
+        }
+        .h300 {
+            height: 300px;
+        }
+        .h500 {
+            height: 500px;
+        }
+        .box-2 > div {
+            width: 32.5%;
+        }
+        div {
+            margin: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box-1 wrap w100">
+        <div class="bg-1 txt-xlrg white-txt txt-cntr w50 h500">Home</div>
+        <div class="bg-1 txt-xlrg white-txt txt-cntr w50 h500">About</div>
+        <div class="bg-1 txt-xlrg  white-txt txt-cntr w100 h300">Kabobs</div>
+    </div>
+    <div class="box-2 wrap w100">
+        <div class="bg-2 txt-mdm white-txt txt-cntr h300">Shishkabobs</div>
+        <div class="bg-2 txt-mdm white-txt txt-cntr h300">BBQ kabobs</div>
+        <div class="bg-2 txt-mdm white-txt txt-cntr h300">Summer kabobs</div>
+    </div>
+</body>
+</html>
