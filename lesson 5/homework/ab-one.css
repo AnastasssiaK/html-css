@@ -1,6 +1,7 @@
+
 body {
     margin: 0;
-    padding: 10px;
+    padding: 5px;
 }
 .bg-silver {
     background: silver;
@@ -39,12 +40,12 @@ body {
     width: 29.54%;
     height: 370px;
 }
+
 @media screen and (min-width: 0) and (max-width: 992px) {
 
 .container {
     max-width: 992px;
     flex-direction: column;
-    /*background: lightpink;*/
     padding: 20px;
     row-gap: 20px;
     height: 100%;
