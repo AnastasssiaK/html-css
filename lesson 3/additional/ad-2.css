@@ -250,5 +250,24 @@ margin: 5px;
     height: 10%;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    padding: 3%;
+    justify-content: space-evenly;
 }
-
+.c6-box-2, .c6-box-1 {
+    width: 20%;
+}
+.c6-line-2 {
+    width: 80%;
+    height: 5%;
+}
+.c6-box-1 {
+    flex-wrap: wrap;
+}
+.circle-bottom {
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.circle-bottom div {
+    width: 30px;
+    height: 30px;
+}
