@@ -3,19 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <title>Additional task</title>
+    <style>
+        body {
+            margin:0;
+        }
+        .flex {
+            display: flex;
+        }
+        .wrap {
+            flex-wrap: wrap;
+        }
+        .gap {
+            column-gap: 1%;
+            row-gap: 2%;
+        }
+
+        .w40 {
+            width: 39%;
+        }
+        .w60 {
+            width: 60%;
+        }
+        .w100 {
+            width: 100%;
+        }
+        h2, p {
+            color: white;
+            margin: 30px auto;
+        }
+        #content {
+            height: 900px;
+            justify-content: space-between;
+        }
+        #header {
+            background: #55d1e4;
+            height: 10%;
+        }
+        #box-1, #box-2 {
+            height: 60%;
+        }
+        #hero {
+            background: #d7c9e3;
+            height: 35%;
+        }
+        #sidebar {
+            background: #9fc363;
+            height: 65%;
+        }
+        #main {
+            background: #f5c632;
+            height: 80%;
+            flex-direction: column;
+            box-sizing: border-box;
+            padding: 20px;
+        }
+        #extra {
+            background: #898989;
+            height: 20%;
+        }
+        #box-3 {
+            height: 20%;
+        }
+        #r-i {
+            background: #2bb673;
+            width: 79%;
+            height: 100%;
+        }
+        #r-p {
+            background: #f3ccde;
+            width: 20%;
+            height: 100%;
+        }
+        #footer {
+            background: #fea500;
+            height: 10%;
+        }
+
+    </style>
 </head>
 <body>
-<div class="content">
-    <div class="w-100%" id="header">Header</div>
-    <div class="w-40%" id="hero">Hero</div>
-    <div class="w-60%" id="main">Main Content
-        <p>**if things do not look right, make sure your browser is in "Experimental Mode"</p>
+<div class="flex gap w100 wrap" id="content">
+    <div class="w100 flex" id="header"><h2 class="flex">Header</h2></div>
+    <div class="flex w40 wrap gap" id="box-1">
+        <div class="w100 flex" id="hero"><h2 class="flex">Hero</h2></div>
+        <div class="w100 flex" id="sidebar"><h2 class="flex">Sidebar</h2></div>
     </div>
-    <div class="w-60%" id="extra">Extra Content</div>
-    <div id="r-i">Related Images</div>
-    <div class="r-p">Related Posts</div>
-    <div class="w-40%" id="sidebar">Sidebar</div>
-    <div class="w-100%" id="footer">Footer</div>
+    <div class="w60 flex wrap gap" id="box-2">
+        <div class="w100 flex wrap" id="main"><h2 class="flex">Main Content</h2>
+            <p>**if things do not look right, make sure your browser is in "Experimental Mode"</p>
+        </div>
+        <div class="w100 flex" id="extra"><h2 class="flex">Extra Content</h2></div>
+    </div>
+    <div class="w100 flex wrap gap" id="box-3">
+        <div class="flex" id="r-i"><h2 class="flex">Related Images</h2></div>
+        <div class="flex" id="r-p"><h2 class="flex">Related Posts</h2></div>
+    </div>
+    <div class="w100 flex" id="footer"><h2 class="flex">Footer</h2></div>
 </div>
 </body>
 </html>
