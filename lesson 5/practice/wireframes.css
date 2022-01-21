@@ -156,18 +156,38 @@ body {
         height: 25%;
     }
 
-    #content-56  {
-        flex-direction: row;
-    }
     #container-6 {
         width: 100%;
     }
 
 
 }
-
 @media screen and (min-width: 0) and (max-width: 768px) {
     #container-2 {
         display: none;
     }
+    #content-56  {
+        flex-direction: column;
+    }
+    #container-5 {
+        width: 100%;
+    }
+    #container-3 {
+        height: 250px;
+    }
+    #container-4 {
+        flex-wrap: wrap;
+        height: 350px;
+    }
+    #container-4 div {
+        width: 45%;
+        height: 40%;
+    }
+
+    #container-5:nth-child(7-12) {display: none;}
+
+    #container-6 {
+        width: 100%;
+    }
+
 }
