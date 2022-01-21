@@ -133,13 +133,7 @@ body {
 #content-34567 {
     width: 1093px;
 }
-#content-34 {
-    flex-direction: column;
-}
 
-#content-56 {
-    flex-direction: row;
-}
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
@@ -162,14 +156,13 @@ body {
         height: 25%;
     }
 
-    #content-56 {
-        display: block;
+    #content-56  {
         flex-direction: row;
     }
-    #conteiner-6 {
-        display: block;
-
+    #container-6 {
+        width: 100%;
     }
+
 
 }
 
