@@ -267,15 +267,16 @@ h3 {
     text-align: left;
 
 }
-
-.c-5_content p {
-    margin: 0 128px 177px 0;
-    text-align: left;
+.p_style-2 {
     font-style: normal;
     font-weight: normal;
     font-size: 17px;
     line-height: 28px;
     color: var(--main-color);
+}
+.c-5_content p {
+    margin: 0 128px 177px 0;
+    text-align: left;
 }
 
 .solutions {
@@ -325,10 +326,6 @@ span {
     margin: 23px 0 29px;
 }
 
-.main_box_text p {
-    font-size: 17px;
-    line-height: 28px;
-}
 .main_box_img {
     margin: 46px 0 46px 234px;
     display: flex;
@@ -342,6 +339,9 @@ span {
     box-sizing: border-box;
     background: transparent;
     color: var(--black-color);
+    margin-top: 36px;
+}
+#contextual button {
     margin-top: 64px;
 }
 #video .main_box_text {
@@ -423,8 +423,6 @@ span {
     text-align: left;
 }
 h4 {
-    font-style: normal;
-    font-weight: normal;
     font-size: 24px;
     line-height: 32px;
     color: var(--main-color);
@@ -474,12 +472,88 @@ h4 {
 }
 .integrations_content p {
     width: 667px;
-    font-size: 17px;
-    line-height: 28px;
 }
 
 .integrations_content button {
     width: 208px;
     height: 54px;
     margin-top: 36px;
+}
+.case-study {
+    width: 1376px;
+    height: 584px;
+    background: #F2EDE7;
+    margin: 0 32px 46px;
+    border-radius: 10px;
+    display: flex;
+    column-gap: 20px;
+}
+.case-study_left_store {
+    width: 562px;
+    box-sizing: border-box;
+    padding: 80px 121px 198px 116px;
+}
+.case-study_left_store h4 {
+    margin: 17px 11px 27px 0;
+}
+.case-study_right_store {
+    width: 794px;
+    border-radius: 0 10px 10px 0;
+    background: #F9C600;
+    position: relative;
+    box-sizing: border-box;
+    padding: 79px 116px 104px;
+}
+.case-study_right_store > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.case-study_right_store h3 {
+    color: var(--black-color);
+    margin: 0 0 81px 0;
+}
+h5 {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--main-color);
+}
+.manager {
+    width: 562px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.manager_info {
+    box-sizing: border-box;
+    padding: 14px 118px 14px 24px;
+}
+.create-account {
+    height: 423px;
+    background: var(--main-color);
+    box-sizing: border-box;
+    padding: 53px 399px 94.78px;
+    text-align: center;
+    position: relative;
+}
+.create-account h2, .create-account p {
+    color: #FFFFFF;
+}
+.create-account p {
+    margin: 31px 0 36px;
+}
+.line {
+    color: var(--text-color);
+    width: 1375.94px;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 32px;
+}
+.footer {
+    height: 678px;
+    background: var(--main-color);
+    box-sizing: border-box;
+    padding: 80px 32px 216px;
 }
