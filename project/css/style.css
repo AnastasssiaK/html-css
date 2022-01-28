@@ -555,5 +555,36 @@ h5 {
     height: 678px;
     background: var(--main-color);
     box-sizing: border-box;
-    padding: 80px 32px 216px;
+    padding: 80px 150px 216px 32px;
+    display: flex;
+    column-gap: 110px;
+}
+
+.list {
+    display: flex;
+    column-gap: 74px;
+    margin-bottom: 65px;
+}
+.copyright {
+    width: 1022px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #94A0A4;
+
+}
+.social {
+    display: flex;
+    column-gap: 24px;
+}
+h6, .list p {
+    font-size: 16px;
+    line-height: 24px;
+}
+h6 {
+    color: #F9C600;
+}
+.footer p {
+    color: #94A0A4;
+    margin-top: 14px;
 }
